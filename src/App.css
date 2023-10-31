@@ -1,0 +1,397 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
+
+body {
+  margin: 0px;
+  background-color: #2a363b;
+}
+.Main-Page {
+  display: block;
+}
+
+/* Navbar */
+.header {
+  background: #2a363b;
+}
+.Navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  right: 0;
+  left: 0;
+}
+.Navbar div {
+  padding: 20px;
+}
+.Navbar div a {
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  font-family: "Rubik Mono One", monospace;
+  color: #f1828d;
+}
+.Navbar div a:hover {
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  font-family: "Rubik Mono One", monospace;
+  color: #f1828d;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f1828d;
+  transition: 0.3s;
+}
+.Navbar.active {
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  font-family: "Rubik Mono One", monospace;
+  color: black;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f1828d;
+  transition: border-bottom 0.3s ease;
+}
+.Navbar-footer div a {
+  padding: 20px;
+  margin-top: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  font-family: "Rubik Mono One", monospace;
+  color: #f1828d;
+}
+.Navbar-footer div a:hover {
+  color: aliceblue;
+}
+.Navbar-footer div {
+  padding: 5px;
+}
+/* Landing page */
+.landing-title {
+  color: black;
+  font-size: 70px;
+}
+
+/* Pages */
+
+.Page {
+  width: 100%;
+  height: 95vh;
+}
+.about {
+  text-align: center;
+  background: #fefad4;
+  float: left;
+}
+.about-content {
+  width: 100%;
+  height: 100vh;
+  color: #765d69;
+}
+.projects {
+  background: #2a363b;
+}
+.project-title {
+  color: #f1828d;
+  font-size: 50px;
+}
+.frequent {
+  background: #dcedc1;
+}
+.services {
+  background: #fefad4;
+}
+.contact {
+  background: #355c7d;
+}
+.service-content {
+  color: #2a363b;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.service-section {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+}
+.service-section2 {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 20px;
+  justify-content: center;
+}
+.service-title {
+  display: block;
+  width: 300px;
+  margin: 20px;
+  color: #f1828d;
+}
+.landing {
+  background: #f1828d;
+  float: left;
+}
+.landing-para {
+  width: 50%;
+  float: right;
+  text-align: right;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 20px;
+}
+
+/*Cards and content*/
+.testi-content p {
+  margin: 100px;
+  height: 60vh;
+}
+.faq-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: #2a363b;
+  z-index: 1000;
+  transform-origin: 0%;
+}
+
+.card-faq {
+  background-color: #f1828d;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 80%;
+  text-align: center;
+  transition: transform 0.2s;
+  margin-top: 25px;
+}
+.card-faq:hover {
+  transform: translateY(-5px);
+}
+
+.large-card {
+  width: 300px;
+  height: 200px;
+}
+
+.small-card {
+  width: 150px;
+  height: 150px;
+}
+
+/* Animations */
+.slide-up {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  transform-origin: bottom;
+}
+.slide-down {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  transform-origin: top;
+}
+.text-transition {
+  position: absolute;
+  top: 4;
+  bottom: 4;
+  left: 0;
+  right: 0;
+  background: black;
+  z-index: 20;
+}
+
+/* Carousel Style*/
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  height: 100vh;
+  text-align: center;
+  font-size: 100px;
+  background: #f1828d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+.swiper-pagination {
+  position: relative;
+  margin-top: 100px;
+}
+.slide-content {
+  position: absolute;
+  color: #2a363b;
+}
+.slide-content h1 {
+  font-size: 30px;
+}
+.slide-content p {
+  font-size: 20px;
+}
+
+/* Contact Us form*/
+.form-container {
+  color: white;
+  width: 450px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.form-element {
+  display: block;
+  margin-bottom: 50px;
+}
+textarea {
+  background: #f1828d;
+  color: #2a363b;
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+  height: 300px;
+  border-radius: 15px;
+  border: none;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+input[type="text"] {
+  background: #f1828d;
+  color: #2a363b;
+  width: 100%;
+  padding: 5px;
+  height: 30px;
+  border-radius: 15px;
+  border: none;
+  text-align: center;
+}
+
+input[type="submit"] {
+  background-color: #f1828d;
+  color: #2a363b;
+  font-weight: bold;
+  border-radius: 10px;
+  height: 30px;
+  width: 100px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #267dbf;
+}
+
+/* FOOTER */
+footer {
+  width: 100%;
+  height: 30vh;
+}
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.social svg {
+  height: 100px;
+  width: 100px;
+  padding-top: 40px;
+}
+.social svg:hover {
+  color: #f1828d;
+}
+.footer-box {
+  flex: 1;
+  min-width: 200px;
+  max-width: 33.33%;
+  margin: 10px;
+  padding: 20px;
+
+  color: #fff;
+}
+
+/* defined classes */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Mobile design*/
+
+@media screen and (max-width: 768px) {
+  .Navbar {
+    background: none;
+  }
+  .mobile-menu svg {
+    height: 30px;
+    width: 30px;
+  }
+  .swiper-slide img {
+    display: flex;
+    height: 60vh;
+  }
+  .form-container {
+    width: 100%;
+  }
+  .footer-box {
+    flex: 0 0 100%;
+  }
+  .mobile-link div a {
+    text-decoration: none;
+    color: #f1828d;
+    font-family: "Rubik Mono One", monospace;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    font-size: 20px;
+  }
+  .mobile-link div a:hover {
+    color: white;
+  }
+  .mobile-link.active {
+    color: white;
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "navigation": [
+    {
+      "name": "Home",
+      "slug": ""
+    },
+    {
+      "name": "About Us",
+      "slug": "aboutus"
+    },
+    {
+      "name": "Services",
+      "slug": "services"
+    },
+    {
+      "name": "Testimonials",
+      "slug": "testimonials"
+    },
+    {
+      "name": "Contact Us",
+      "slug": "contactus"
+    },
+    {
+      "name": "Projects",
+      "slug": "projects"
+    },
+    {
+      "name": "Technologies",
+      "slug": "technology"
+    },
+    {
+      "name": "FAQ",
+      "slug": "faq"
+    }
+  ],
+  "about": {
+    "title": "About Us",
+    "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+    "image": "https://i.pinimg.com/564x/06/ae/80/06ae800957fd7efabe894de3d1c0611b.jpg"
+  },
+  "services": [
+    {
+      "title": "Web Development",
+      "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+      "image": "https://i.pinimg.com/564x/06/ae/80/06ae800957fd7efabe894de3d1c0611b.jpg"
+    },
+    {
+      "title": "App Developement",
+      "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+      "image": "https://i.pinimg.com/564x/06/ae/80/06ae800957fd7efabe894de3d1c0611b.jpg"
+    },
+    {
+      "title": "Backend Developement",
+      "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+      "image": "https://i.pinimg.com/564x/06/ae/80/06ae800957fd7efabe894de3d1c0611b.jpg"
+    },
+    {
+      "title": "Graphics Design",
+      "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+      "image": "https://i.pinimg.com/564x/06/ae/80/06ae800957fd7efabe894de3d1c0611b.jpg"
+    },
+    {
+      "title": "App Developement",
+      "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+      "image": "https://i.pinimg.com/564x/06/ae/80/06ae800957fd7efabe894de3d1c0611b.jpg"
+    },
+    {
+      "title": "Backend Developement",
+      "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+      "image": "https://i.pinimg.com/564x/06/ae/80/06ae800957fd7efabe894de3d1c0611b.jpg"
+    },
+    {
+      "title": "Graphics Design",
+      "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+      "image": "https://i.pinimg.com/564x/06/ae/80/06ae800957fd7efabe894de3d1c0611b.jpg"
+    }
+  ],
+  "clients": [
+    {
+      "name": "Facebook",
+      "review": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour"
+    },
+    {
+      "name": "Google",
+      "review": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour"
+    },
+    {
+      "name": "Microsoft",
+      "review": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour"
+    },
+    {
+      "name": "Uber",
+      "review": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour"
+    }
+  ],
+  "technologies": [
+    {
+      "name": "ReactJs",
+      "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+      "image": "https://i.pinimg.com/564x/06/ae/80/06ae800957fd7efabe894de3d1c0611b.jpg"
+    },
+    {
+      "title": "Node Js",
+      "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+      "image": "https://i.pinimg.com/564x/06/ae/80/06ae800957fd7efabe894de3d1c0611b.jpg"
+    },
+    {
+      "title": "React Native",
+      "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+      "image": "https://i.pinimg.com/564x/06/ae/80/06ae800957fd7efabe894de3d1c0611b.jpg"
+    },
+    {
+      "title": "Next Js",
+      "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+      "image": "https://i.pinimg.com/564x/06/ae/80/06ae800957fd7efabe894de3d1c0611b.jpg"
+    }
+  ],
+  "projects": [
+    {
+      "title": "E-Commerce Website",
+      "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+      "image": "https://i.pinimg.com/564x/06/ae/80/06ae800957fd7efabe894de3d1c0611b.jpg"
+    },
+    {
+      "title": "Business Management",
+      "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+      "image": "https://i.pinimg.com/564x/06/ae/80/06ae800957fd7efabe894de3d1c0611b.jpg"
+    },
+    {
+      "title": "Discussion Forum",
+      "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+      "image": "https://i.pinimg.com/564x/06/ae/80/06ae800957fd7efabe894de3d1c0611b.jpg"
+    },
+    {
+      "title": "Blog Website",
+      "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+      "image": "https://i.pinimg.com/564x/06/ae/80/06ae800957fd7efabe894de3d1c0611b.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Facebook",
+      "review": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+      "image": "https://i.pinimg.com/564x/06/ae/80/06ae800957fd7efabe894de3d1c0611b.jpg"
+    },
+    {
+      "name": "Google",
+      "review": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+      "image": "https://i.pinimg.com/564x/06/ae/80/06ae800957fd7efabe894de3d1c0611b.jpg"
+    },
+    {
+      "name": "Microsoft",
+      "review": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+      "image": "https://i.pinimg.com/564x/06/ae/80/06ae800957fd7efabe894de3d1c0611b.jpg"
+    },
+    {
+      "name": "Uber",
+      "review": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+      "image": "https://i.pinimg.com/564x/06/ae/80/06ae800957fd7efabe894de3d1c0611b.jpg"
+    }
+  ],
+  "FAQ": [
+    {
+      "title": "Who are we?",
+      "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour"
+    },
+    {
+      "title": "What we do?",
+      "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour"
+    },
+    {
+      "title": "How to find us?",
+      "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour"
+    },
+    {
+      "title": "How much do we cost?",
+      "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour"
+    },
+    {
+      "title": "How do we work?",
+      "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour"
+    },
+    {
+      "title": "What services do we provide?",
+      "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour"
+    }
+  ]
+}
