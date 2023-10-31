@@ -67,7 +67,7 @@ body {
   padding: 5px;
 }
 /* Landing page */
-.landing-title {
+.landing-title { 
   color: black;
   font-size: 40px;
 }
@@ -225,7 +225,7 @@ body {
 .swiper-slide {
   height: 100vh;
   text-align: center;
-  font-size: 100px;
+  font-size: 50px;
   background: #f1828d;
   display: flex;
   justify-content: center;
